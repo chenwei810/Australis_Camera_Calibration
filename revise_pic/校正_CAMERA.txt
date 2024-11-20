@@ -1,0 +1,46 @@
+                           Australis Bundle Adjustment Results: Camera Parameters
+
+                                        19/11/2024 18:26pm
+
+Project: C:\Users\Best\Desktop\作業一\revise_pic\校正.aus
+
+Adjustment: Free-Network
+Number of Points: 104
+Number of Images: 9
+RMS of Image coords:    6.56 (um)
+
+Results for Camera 1    Apple iPhone 13
+
+Sensor Size        Pixel Size (mm)
+  H    4032         0.00170
+  V    3024         0.00170
+
+  Camera    Initial      Total          Final        Initial         Final
+ Variable    Value     Adjustment       Value       Std. Error     Std. Error
+    C        5.3900      0.00000        5.3900        1.0e+03      1.299e-02 (mm)
+   XP       -0.1184      0.00000       -0.1184        1.0e+03      1.910e-03 (mm)
+   YP        2.4922      0.00000        2.4922        1.0e+03      9.477e-03 (mm)
+   K1  -1.00177e-03    0.000e+00  -1.00177e-03        1.0e+03      1.896e-04
+   K2   2.03456e-05    0.000e+00   2.03456e-05        1.0e+03      4.064e-05
+   K3  -9.70087e-07    0.000e+00  -9.70087e-07        1.0e+03      2.785e-06
+   P1  -7.07454e-05    0.000e+00  -7.07454e-05        1.0e+03      3.417e-05
+   P2  -2.51902e-03    0.000e+00  -2.51902e-03        1.0e+03      6.702e-05
+   B1  -1.96087e-01    0.000e+00  -1.96087e-01        1.0e+03      2.001e-19
+   B2  -1.88854e-02    0.000e+00  -1.88854e-02        1.0e+03      2.001e-19
+   K4  -3.46700e-61    0.000e+00  -3.46700e-61        1.0e-36      2.001e-35
+   K5   5.93719e-68    0.000e+00   5.93719e-68        1.0e-40      2.001e-39
+
+Maximum Observational Radial Distance Encountered:      4.81 mm
+
+Exterior Orientation Summary (Xc, Yc, Zc are in project units, rotations are in decimal degrees)
+
+Station       Image         Xc          Yc          Zc       Alpha       Elev.        Roll
+    3undistorted_IMG_3730   599.16748   446.02325   305.76630   55.430716  -27.669647   39.920230
+    4undistorted_IMG_3731   486.42426   275.86992   197.43138   41.589039  -19.459526   33.970233
+    5undistorted_IMG_3732   378.03251   137.85773   120.44463   26.984062   -9.811045   20.611245
+    6undistorted_IMG_3733   164.60648    67.81006    42.01525   11.207498   -4.214390   10.085957
+    7undistorted_IMG_3734    -0.00000    -0.00000     0.00000   -0.000000    0.000000    0.000000
+    8undistorted_IMG_3735  -209.63190    32.15924    28.36959  -11.697043   -0.650615   -7.944251
+    9undistorted_IMG_3736  -447.24741   111.31819    71.66466  -26.302037   -3.421752  -14.683510
+   10undistorted_IMG_3737  -665.00505   246.51293   154.06344  -39.292894   -7.800705  -22.904518
+   11undistorted_IMG_3738  -715.70668   423.50203   288.68056  -47.779491  -15.705139  -30.773832
