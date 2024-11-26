@@ -29,11 +29,11 @@ def undistort_images(input_folder, output_folder):
    # 畸變係數 [k1, k2, p1, p2, k3]
    # 使用5參數模型，這是OpenCV最常用的格式
    dist_coeffs = np.array([
-       -4.05865e-31,   # k1
-       -3.22146e-38,   # k2
+       4.05865e-31,   # k1
+       3.22146e-38,   # k2
        0.0,            # p1
        0.0,            # p2
-       -2.48791e-49    # k3
+       2.48791e-49    # k3
    ], dtype=np.float64).reshape(-1, 1)
    
    print("相機矩陣:")
