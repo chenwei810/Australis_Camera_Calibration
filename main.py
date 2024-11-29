@@ -31,8 +31,8 @@ def undistort_images(input_folder, output_folder):
    dist_coeffs = np.array([
        4.05865e-31,   # k1
        3.22146e-38,   # k2
-       0.0,            # p1
-       0.0,            # p2
+       2.5558e-04,    # p1
+       -1.0358e-03,   # p2
        2.48791e-49    # k3
    ], dtype=np.float64).reshape(-1, 1)
    
